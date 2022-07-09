@@ -134,7 +134,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       return Padding(
                         padding: const EdgeInsets.only(bottom: 8.0),
                         child: ListTile(
-                          title: Text(snapshot.data!.names![index].name!),
+                          title: Text(
+                            snapshot.data!.names![index].name!,
+                            style: const TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.bold),
+                          ),
                           subtitle: Text(snapshot.data!.names![index].desc!),
                         ),
                       );
