@@ -1,6 +1,6 @@
 # name_doz
 
-A new Flutter project.
+A Flutter app for finding names and getting their meaning.
 
 ## Getting Started
 
